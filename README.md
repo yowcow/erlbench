@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/yowcow/erlbench.svg?branch=master)](https://travis-ci.com/yowcow/erlbench)
+
 erlbench
 ========
 
@@ -15,7 +17,7 @@ In erlang shell or so, do:
 
 ```erlang
 Result = erlbench:timethese(
-    100000, % count of iteratios
+    100000, % count of iterations
     [
         {"function A", fun() -> ... end},
         {"function B", fun() -> ... end},
